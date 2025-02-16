@@ -7,9 +7,11 @@ Avito-клон на React + TypeScript с сервером на Express.
 1. Установите зависимости:
    ```sh
    npm install
+   ```
 2. Запустите проект:
-    ```sh 
+   ```sh
    npm start
+   ```
 
 ## Стек технологий
 
@@ -62,9 +64,75 @@ Avito-клон на React + TypeScript с сервером на Express.
 ## 📌 Дополнительные команды
 
 - **Запуск сервера отдельно:**
+
   ```bash
   npm run server
+
+  ```
 
 - **Запуск клиента отдельно:**
   ```bash
   npm run client
+
+  ```
+
+## Структура проекта Avito-clone-client
+
+```
+├─ README.md
+├─ cypress
+│  ├─ downloads
+│  ├─ e2e
+│  │  └─ ads.cy.tsx
+│  ├─ fixtures
+│  │  ├─ adDetail.json
+│  │  ├─ example.json
+│  │  └─ mockAds.json
+│  └─ tsconfig.json
+├─ public
+│  └─ index.html
+├─ server
+│  ├─ app.js
+│  ├─ package-lock.json
+│  └─ package.json
+└─ src
+   ├─ components
+   │  ├─ app.tsx
+   │  ├─ header.tsx
+   │  ├─ ad
+   │  │  ├─ ad.tsx
+   │  │  └─ adUI.tsx
+   │  ├─ filter
+   │  │  ├─ filter.tsx
+   │  │  └─ filterUI.tsx
+   │  ├─ form
+   │  │  ├─ form.tsx
+   │  │  └─ formUI.tsx
+   │  └─ list
+   │     ├─ list.tsx
+   │     └─ listUI.tsx
+   ├─ services
+   │  ├─ store.ts
+   │  └─ __tests__
+   │     └─ reducer.test.ts
+   ├─ slices
+   │  ├─ adDetailSlice
+   │  │  ├─ adDetailSlice.ts
+   │  │  └─ __tests__
+   │  │     └─ adDetail.test.ts
+   │  ├─ form
+   │  │  ├─ formSlice.ts
+   │  │  └─ __test__
+   │  │     └─ form.tests.ts
+   │  └─ list
+   │     ├─ listSlice.ts
+   │     └─ __tests__
+   │        └─ list.tests.ts
+   ├─ constants.ts
+   ├─ global.d.ts
+   ├─ index.tsx
+   ├─ styles.css
+   └─ types.ts
+
+
+```

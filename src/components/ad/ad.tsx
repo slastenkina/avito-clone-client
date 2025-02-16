@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom'; // Хуки для навигации и получения параметров URL
 import { RootState, useDispatch, useSelector } from '../../services/store'; // Хуки для работы с Redux store
 import { fetchAdDetail } from '../../slices/adDetailSlice/adDetailSlice'; // Асинхронное действие для получения данных объявления
-import AdUI from './AdUI'; // Компонент для отображения UI объявления
+import AdUI from './adUI'; // Компонент для отображения UI объявления
 
 const Ad: React.FC = () => {
   // Извлекаем параметр id из URL
