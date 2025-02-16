@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1739716477295,
+    "name": "тест",
+    "description": "тестовое объявление для cypress",
+    "location": "Москва",
+    "type": "Недвижимость",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/JPEG_example_JPG_RIP_100.jpg",
+    "propertyType": "Земельный участок",
+    "area": 10,
+    "rooms": 1,
+    "price": 50000
+  },
+  {
+    "id": 1739712089550,
+    "name": "тест1",
+    "description": "тест для проверки списка, фильтра и пагинации",
+    "location": "Москва",
+    "type": "Недвижимость",
+    "image": "https://fileinfo.com/img/ss/xl/jpg_44-2.jpg",
+    "propertyType": "Коттедж",
+    "area": 150,
+    "rooms": 4,
+    "price": 17500000
+  },
+  {
+    "id": 1739712169827,
+    "name": "тест2",
+    "description": "тест тест тест",
+    "location": "Москва",
+    "type": "Авто",
+    "image": "https://docs.gimp.org/2.10/ru/images/tutorials/quickie-jpeg-100.jpg",
+    "brand": "Ford",
+    "model": "111",
+    "year": 1234,
+    "mileage": 4319
+  }
+]
+

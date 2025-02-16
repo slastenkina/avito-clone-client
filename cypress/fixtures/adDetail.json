@@ -1,0 +1,12 @@
+{
+  "id": 1739716477295,
+  "name": "тест",
+  "description": "тестовое объявление для cypress",
+  "location": "Москва",
+  "type": "Недвижимость",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/JPEG_example_JPG_RIP_100.jpg",
+  "propertyType": "Земельный участок",
+  "area": 10,
+  "rooms": 1,
+  "price": 50000
+}
